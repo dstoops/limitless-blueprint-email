@@ -9,7 +9,7 @@
       "headers": {
         "Content-Type": "application/json"
       },
-      "requestTemplate": "{\n  \"serverId\": \"32298\",\n  \"APIKey\": \"Xw42Hmr9CMb8j6D5Zea3\",\n  \"Messages\": [\n    {\n      \"To\": [\n        {\n          \"emailAddress\": \"$esc.jsonString(${input.ToAddress})\"\n        }\n      ],\n      \"From\": {\n        \"emailAddress\": \"experts@comfortgenie.mypurecloud.com\",\n        \"friendlyName\": \"Expert Support\"\n      },\n      \"ReplyTo\": {\n        \"emailAddress\": \"experts@comfortgenie.mypurecloud.com\",\n        \"friendlyName\": \"Expert Support\"\n      },\n      \"Subject\": \"$esc.jsonString(${input.Subject})\",\n      \"HtmlBody\": \"$esc.jsonString(${input.Body})\"\n    }\n  ]\n}"
+      "requestTemplate": "{\n  \"serverId\": \"32298\",\n  \"APIKey\": \"<<<YOUR KEY HERE>>>\",\n  \"Messages\": [\n    {\n      \"To\": [\n        {\n          \"emailAddress\": \"$esc.jsonString(${input.ToAddress})\"\n        }\n      ],\n      \"From\": {\n        \"emailAddress\": \"<<<YOUR EMAIL>>>@<<<YOUR SUBDOMAIN>>>.mypurecloud.com\",\n        \"friendlyName\": \"Expert Support\"\n      },\n      \"ReplyTo\": {\n        \"emailAddress\": \"<<<YOUR EMAIL>>>@<<<YOUR SUBDOMAIN>>>.mypurecloud.com\",\n        \"friendlyName\": \"Expert Support\"\n      },\n      \"Subject\": \"$esc.jsonString(${input.Subject})\",\n      \"HtmlBody\": \"$esc.jsonString(${input.Body})\"\n    }\n  ]\n}"
     },
     "response": {
       "translationMap": {},
