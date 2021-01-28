@@ -7,7 +7,7 @@
       "requestUrlTemplate": "https://prod.api.belimitless-app.io/crm/integration/messages/${input.msgId}",
       "requestType": "GET",
       "headers": {
-        "x-api-key": "<<<YOUR LIMITLESS API KEY>>>"
+        "x-api-key": "vxRDuedG2U2lTyW9rOhwE2PbsMmAo21o36NfFVW7"
       },
       "requestTemplate": "${input.rawRequest}"
     },

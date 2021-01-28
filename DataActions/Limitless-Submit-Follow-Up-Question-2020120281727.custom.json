@@ -7,7 +7,7 @@
       "requestUrlTemplate": "https://prod.api.belimitless-app.io/crm/public/messages/${input.msgId}/reply?access_key=${input.accessKey}",
       "requestType": "POST",
       "headers": {
-        "x-api-key": "<<<YOUR LIMITLESS API KEY>>>",
+        "x-api-key": "vxRDuedG2U2lTyW9rOhwE2PbsMmAo21o36NfFVW7",
         "Content-Type": "application/json"
       },
       "requestTemplate": "{\"body\": \"$esc.jsonString(${input.body})\"}"
