@@ -7,7 +7,7 @@
       "requestUrlTemplate": "https://prod.api.belimitless-app.io/crm/integration/messages",
       "requestType": "POST",
       "headers": {
-        "x-api-key": "vxRDuedG2U2lTyW9rOhwE2PbsMmAo21o36NfFVW7"
+        "x-api-key": "<<<Your KEY HERE>>>"
       },
       "requestTemplate": "[{\n\"groupName\": \"$esc.jsonString(${input.groupName})\",\n\"body\": \"$esc.jsonString(${input.body})\",\n\"customerEmail\": \"$esc.jsonString(${input.customerEmail})\",\n\"customerFirstName\": \"$esc.jsonString(${input.customerFirstName})\",\n\"customerLastNameInitial\": \"$esc.jsonString(${input.customerLastNameInitial})\",\n\"tenantMsgId\": \"$esc.jsonString(${input.tenantMsgId})\",\n\"tenantMsgType\": \"$esc.jsonString(${input.tenantMsgType})\",\n\"tenantMsgDate\": \"$esc.jsonString(${input.tenantMsgDate})\",\n    \"tenantChannel\": \"$esc.jsonString(${input.tenantChannel})\"\n}]"
     },
